@@ -1,9 +1,13 @@
+<!-- views/AboutUsView.vue -->
 <script setup lang="ts">
 import MainLayout from '@/layouts/MainLayout.vue'
+import AboutUs from '@/components/AboutUs.vue'
+import Join from '@/components/Join.vue'
 </script>
 
 <template>
   <MainLayout>
-    <h1>About view</h1>
+    <AboutUs/> <!-- Menampilkan isi dari komponen AboutUs.vue di dalam MainLayout -->
+    <Join/>
   </MainLayout>
 </template>
